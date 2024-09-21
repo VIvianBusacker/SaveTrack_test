@@ -21,3 +21,4 @@ https://recharts.org/en-US/examples/CustomizedCrossContent
 https://reactrouter.com/en/main
 https://node-postgres.com/apis/pool
 https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/
+https://badssl.com/download/
