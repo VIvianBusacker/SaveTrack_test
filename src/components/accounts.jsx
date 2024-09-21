@@ -9,8 +9,8 @@ const data = [
     account: "sgomaz123@gmail.com",
     amount: "85,345.00",
     icon: (
-      <div className='w-10 h-10 bg-amber-500 text-white flex items-center justify-center rounded-full'>
-        <FaBtc size={24} />
+      <div className="w-9 h-9 bg-yellow-400 text-white flex items-center justify-center rounded-lg">
+        <FaBtc size={20} />
       </div>
     ),
   },
@@ -19,8 +19,8 @@ const data = [
     account: "2463********8473",
     amount: "15,345.00",
     icon: (
-      <div className='w-10 h-10 bg-blue-500 text-white flex items-center justify-center rounded-full'>
-        <RiVisaLine size={24} />
+      <div className="w-9 h-9 bg-blue-400 text-white flex items-center justify-center rounded-lg">
+        <RiVisaLine size={20} />
       </div>
     ),
   },
@@ -29,8 +29,8 @@ const data = [
     account: "6785********8473",
     amount: "55,345.00",
     icon: (
-      <div className='w-10 h-10 bg-rose-500 text-white flex items-center justify-center rounded-full'>
-        <FaCcMastercard size={24} />
+      <div className="w-9 h-9 bg-red-400 text-white flex items-center justify-center rounded-lg">
+        <FaCcMastercard size={20} />
       </div>
     ),
   },
@@ -39,8 +39,8 @@ const data = [
     account: "sgomaz123@gmail.com",
     amount: "35,345.00",
     icon: (
-      <div className='w-10 h-10 bg-blue-600 text-white flex items-center justify-center rounded-full'>
-        <FaPaypal size={24} />
+      <div className="w-9 h-9 bg-indigo-400 text-white flex items-center justify-center rounded-lg">
+        <FaPaypal size={20} />
       </div>
     ),
   },
@@ -48,31 +48,31 @@ const data = [
 
 const Accounts = () => {
   return (
-    <div className='mt-16 py-5 md:py-20 md:w-1/3'>
-      <Title title='Accounts' />
-      <span className='text-sm text-gray-500 dark:text-gray-400'>
-        View all your accounts
-      </span>
-
-      <div className='w-full'>
+    <div className="mt-10 py-8 w-full max-w-lg mx-auto">
+      <Title title="Accounts" />
+      <div className="w-full space-y-6 mt-4">
         {data.map((item, index) => (
-          <div key={index} className='flex items-center justify-between mt-4'>
-            <div className='flex items-center gap-3'>
+          <div
+            key={index}
+            className="flex items-center justify-between bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow"
+          >
+            <div className="flex items-center gap-4">
               {item.icon}
               <div>
-                <p className='text-black dark:text-gray-200 text-lg font-medium'>
+                <p className="text-gray-900 dark:text-gray-200 font-semibold">
                   {item.name}
                 </p>
-                <span className='text-gray-500 text-sm'>{item.account}</span>
+                <span className="text-gray-500 dark:text-gray-400 text-sm">
+                  {item.account}
+                </span>
               </div>
             </div>
-
             <div>
-              <p className='text-lg text-black dark:text-gray-200 font-semibold'>
+              <p className="text-xl text-gray-900 dark:text-gray-200 font-semibold">
                 ${item.amount}
               </p>
-              <span className='text-xs text-gray-500 dark:text-violet-600'>
-                Account Balance
+              <span className="text-gray-500 dark:text-gray-400 text-sm">
+                Balance
               </span>
             </div>
           </div>

@@ -45,134 +45,50 @@ const data = [
     source: "Credit Card",
     amount: 25,
   },
-  {
-    date: "2024-02-18",
-    name: "Gas Station",
-    contact: "+1777888999",
-    status: "Completed",
-    source: "Debit Card",
-    amount: 40,
-  },
-  {
-    date: "2024-03-07",
-    name: "Electronics Store",
-    contact: "+1987654321",
-    status: "Completed",
-    source: "Credit Card",
-    amount: 200,
-  },
-  {
-    date: "2024-03-15",
-    name: "Online Service",
-    contact: "+1122334455",
-    status: "Pending",
-    source: "Bank Transfer",
-    amount: 120,
-  },
-  {
-    date: "2024-03-22",
-    name: "Coffee Shop",
-    contact: "+1234567890",
-    status: "Rejected",
-    source: "Cash",
-    amount: 10,
-  },
-  {
-    date: "2024-04-01",
-    name: "Grocery Store",
-    contact: "+1555666777",
-    status: "Completed",
-    source: "Debit Card",
-    amount: 90,
-  },
-  {
-    date: "2024-04-08",
-    name: "Online Shopping",
-    contact: "+1444333222",
-    status: "Completed",
-    source: "Credit Card",
-    amount: 180,
-  },
-  {
-    date: "2024-04-15",
-    name: "Car Maintenance",
-    contact: "+1777888999",
-    status: "Completed",
-    source: "Cash",
-    amount: 300,
-  },
 ];
-
-// <td className='py-2 px-2'>
-//   <p
-//     className={`w-fit flex items-center gap-2 px-2 py-1 rounded-full text-base ${
-//       item.status === "Completed"
-//         ? "bg-emerald-200 text-emerald-800"
-//         : item.status === "Pending"
-//         ? "bg-yellow-200 text-yellow-800"
-//         : "bg-red-200 text-red-800"
-//     }`}
-//   >
-//     {item.status === "Pending" && <RiProgress3Line />}
-//     {item.status === "Completed" && <IoCheckmarkDoneCircle />}
-//     {item.status === "Rejected" && <TiWarning />}
-//     <span> {item.status}</span>
-//   </p>
-// </td>;
 
 const Transactions = () => {
   return (
-    <div className='py-20 w-full md:w-2/3'>
-      <Title title='Latest Transactions' />
-
-      <div className='overflow-x-auto mt-5'>
-        <table className='w-full'>
-          <thead className='w-full border-b border-gray-300 dark:border-gray-700'>
-            <tr className='w-full text-black dark:text-gray-400  text-left'>
-              <th className='py-2'>Date</th>
-              <th className='py-2'>Name</th>
-              <th className='py-2'>Status</th>
-              <th className='py-2'>Source</th>
-              <th className='py-2'>Amount</th>
+    <div className="py-10 w-full max-w-5xl mx-auto">
+      <Title title="Latest Transactions" />
+      <div className="mt-6 overflow-x-auto">
+        <table className="min-w-full text-left">
+          <thead>
+            <tr className="border-b border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300">
+              <th className="py-3 px-5 font-semibold text-sm">Date</th>
+              <th className="py-3 px-5 font-semibold text-sm">Name</th>
+              <th className="py-3 px-5 font-semibold text-sm">Status</th>
+              <th className="py-3 px-5 font-semibold text-sm">Source</th>
+              <th className="py-3 px-5 font-semibold text-sm">Amount</th>
             </tr>
           </thead>
-
           <tbody>
-            {data.slice(0, 5).map((item, index) => (
+            {data.map((item, index) => (
               <tr
                 key={index}
-                className='norder-b border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-500 hover:bg-gray-300/10'
+                className="hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 border-b border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400"
               >
-                <td className='py-2 px-2'>{item.date}</td>
-                <td className='py-2 px-2'>
-                  <div className=''>
-                    <p className='font-medium text-lg text-black dark:text-gray-400'>
-                      {item.name}
-                    </p>
-                    <span className='text-sm text-gray-600'>
-                      {item.contact}
-                    </span>
-                  </div>
+                <td className="py-4 px-5 text-sm">{item.date}</td>
+                <td className="py-4 px-5">
+                  <p className="font-medium text-gray-800 dark:text-gray-200 text-sm">
+                    {item.name}
+                  </p>
+                  <p className="text-xs text-gray-500">{item.contact}</p>
                 </td>
-                <td className='py-2 px-2 flex items-center gap-2'>
+                <td className="py-4 px-5 flex items-center gap-2 text-sm">
                   {item.status === "Pending" && (
-                    <RiProgress3Line className='text-amber-600' size={24} />
+                    <RiProgress3Line className="text-amber-500" size={18} />
                   )}
                   {item.status === "Completed" && (
-                    <IoCheckmarkDoneCircle
-                      className='text-emerald-600'
-                      size={24}
-                    />
+                    <IoCheckmarkDoneCircle className="text-green-500" size={18} />
                   )}
                   {item.status === "Rejected" && (
-                    <TiWarning className='text-red-600' size={24} />
+                    <TiWarning className="text-red-500" size={18} />
                   )}
-
                   <span>{item.status}</span>
                 </td>
-
-                <td className='py-2 px-2'>{item.source}</td>
-                <td className='py-2 px-2 text-black dark:text-gray-400 text-base font-medium'>
+                <td className="py-4 px-5 text-sm">{item.source}</td>
+                <td className="py-4 px-5 font-medium text-sm">
                   ${item.amount}.00
                 </td>
               </tr>

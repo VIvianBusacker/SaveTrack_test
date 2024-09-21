@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Avatar } from "../assets";
 import ThemeSwitch from "./themeswitch";
 import { FaBars } from "react-icons/fa";
+<title>Budget Overview</title>
 
 const links = ["Dashboard", "Transactions", "Accounts", "Settings"];
 
@@ -77,7 +78,7 @@ const Navbar = () => {
               <img
                 src={Avatar}
                 alt="User"
-                className="w-14 h-14 rounded-full object-cover"
+                className="w-14 h-14 rounded-full object-cover cursor-pointer"
               />
               <div className="ml-4">
                 <span className="block text-gray-900 dark:text-white font-bold">

@@ -8,11 +8,11 @@ const data = [
   { name: "Expense", value: 50010 },
 ];
 
-const COLORS = ["#0088FE", "#FFBB28", "#FF8042", "#00C49F"];
+const COLORS = ["#4F46E5", "#10B981", "#FF8042", "#00C49F"];
 
 const DoughnutChart = () => {
   return (
-    <div className='w-full md:w-1/3 flex flex-col items-center bg-gray-50 dark:bg-transparent'>
+    <div className='w-full md:w-1/3 flex flex-col items-center light:bg-transparent dark:bg-transparent'>
       <Title title='Summary' />
 
       <ResponsiveContainer width={"100%"} height={500}>
@@ -25,13 +25,14 @@ const DoughnutChart = () => {
             outerRadius={180}
             fill='#8884d8'
             paddingAngle={5}
-            dataKey={"value"}
-          >
+            dataKey={"value"}>
+
             {data.map((entry, index) => (
               <Cell
                 key={`cell-${index}`}
-                fill={COLORS[index % COLORS.length]}
-              />
+                fill={COLORS[index % COLORS.length]}/>
+
+                
             ))}
           </Pie>
         </PieChart>
