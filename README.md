@@ -22,5 +22,8 @@ https://reactrouter.com/en/main <br>
 https://node-postgres.com/apis/pool <br>
 https://learning.postman.com/docs/collections/using-newman-cli/installing-running-newman/ <br>
 https://badssl.com/download/ <br>
-firebase
+firebase <br>
 ![image](https://github.com/user-attachments/assets/0ed29f12-fef6-44b7-88ce-3dfcdb70c62c)
+
+#Idea videos/ Inspried:<br>
+https://www.youtube.com/watch?v=xC-c7E5PK0Y
