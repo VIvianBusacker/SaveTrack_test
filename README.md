@@ -25,5 +25,5 @@ https://badssl.com/download/ <br>
 firebase <br>
 ![image](https://github.com/user-attachments/assets/0ed29f12-fef6-44b7-88ce-3dfcdb70c62c)
 
-#Idea videos/ Inspried:<br>
+# Idea videos/ Inspried:<br>
 https://www.youtube.com/watch?v=xC-c7E5PK0Y
