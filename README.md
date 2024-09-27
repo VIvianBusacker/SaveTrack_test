@@ -1,5 +1,12 @@
 Using verison 2020 modle.
 
+# !!! SQLc code: https://github.com/jeongjieon/SaveAlot/blob/main/SQL.sql !!!
+
+<br>
+<br>
+<br>
+
+
 #REFERCES: 
 
 ## Others for **step by step or fix errors**
