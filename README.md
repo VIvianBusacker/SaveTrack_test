@@ -18,6 +18,13 @@ Answer:
    
 ![image](https://github.com/user-attachments/assets/34163821-bb08-442c-9d27-99a93d713e6f)
 
+<br>
+
+<p> import React (Examples of how to use imports in React 17) examples: </p> <br>
+
+![image](https://github.com/user-attachments/assets/b7b2640e-9c4b-4ca1-bd83-9555ca330da8)
+
+![image](https://github.com/user-attachments/assets/6b7d74fd-0863-4a88-aa23-138c4dd8cde0)
 
 ---------------------------------------------------------------------------------------
 React DOCUMENT!!!! => https://react.dev/reference/react/useEffect
