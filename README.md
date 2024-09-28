@@ -7,7 +7,8 @@ Using verison 2020 modle.
 <br>
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/48540fec-5100-4a2f-8e9a-60baa2c196f5)
+
+![image](https://github.com/user-attachments/assets/36e58fbf-c9c3-4091-9732-949277e63659)
 
 
 #REFERCES: 
