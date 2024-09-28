@@ -43,3 +43,6 @@ firebase <br>
 
 # Idea videos/ Inspried:<br>
 https://www.youtube.com/watch?v=xC-c7E5PK0Y
+<br><br><br><br><br><br><br>
+error fix:
+https://github.com/jsx-eslint/eslint-plugin-react/issues/7#issuecomment-90294004
