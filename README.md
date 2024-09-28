@@ -9,6 +9,15 @@ Using verison 2020 modle.
 <br>
 
 ![image](https://github.com/user-attachments/assets/36e58fbf-c9c3-4091-9732-949277e63659)
+<br>
+<br>
+<br>
+ <h1> Why would # #=>import React from 'react'; <=# show errors??? </h1>
+Answer: 
+<br>
+   
+![image](https://github.com/user-attachments/assets/34163821-bb08-442c-9d27-99a93d713e6f)
+
 
 ---------------------------------------------------------------------------------------
 React DOCUMENT!!!! => https://react.dev/reference/react/useEffect
