@@ -1,6 +1,8 @@
 Using verison 2020 modle.
+<br>
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/409ad4e2-f809-4d94-a741-562a0938310b">
 
-
+<br>
 ---------------------------------------------------------------------------------------------
 # !!! SQLc code: https://github.com/jeongjieon/SaveAlot/blob/main/SQL.sql !!!
 ---------------------------------------------------------------------------------------------
