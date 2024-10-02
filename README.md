@@ -1,3 +1,7 @@
+// import { useStore } from 'zustand';
+import { useStore } from './store/index';
+<br>
+
 
 <img width="492" alt="image" src="https://github.com/user-attachments/assets/ec5b620b-a543-4b18-9d3a-6715ea5461f7">
 
