@@ -2,6 +2,9 @@
 import { useStore } from './store/index';
 <br>
 
+OMGGGGGGGGGGGGGGGG <br>
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/f31562c4-ee1c-4fb7-a9de-1c7ee697fc30">
+OMGGGGGGGGGGGGGGGG <br>
 
 <img width="492" alt="image" src="https://github.com/user-attachments/assets/ec5b620b-a543-4b18-9d3a-6715ea5461f7">
 
